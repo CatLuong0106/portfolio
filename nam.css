@@ -40,8 +40,30 @@ section > .title-container > h1 {
     text-transform: uppercase;
 }
 
-/* #303036
+#experience > .content {
+    display: flex;
+    flex-direction: column;
+    background: beige;
+}
 
-cfc9cb
+.exp-component {
+  background: darkblue;
+  display: grid;
+  grid-template-columns: 3fr 30px 3fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". x a"
+    "b x ."
+    ". x c";
+}
 
-f8f6f2 */
+.exp-component:nth-of-type(1) {
+    grid-area: a;
+    background: blue;
+}
+.exp-component:nth-of-type(1) {
+    grid-area: b;
+}
+.exp-component:nth-of-type(1) {
+    grid-area: c;
+}
