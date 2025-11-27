@@ -1,23 +1,37 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
+		"dates": "May 2025 - Aug 2025",
+		"role": "Member of Technical Staff",
+		"company": "Cohere",
+		"description": "Designed and deployed scalable data pipelines using PySpark on GCP Dataproc to ingest, preprocess, and store millions of multi-domain documents daily for LLM training\n\nDeveloped and benchmarked a high-precision RAG framework, leveraging retrieval outputs to contextualize and curate long-context training datasets\n\nTrained and conducted ablation studies on LLMs across data and architecture configurations using distributed GPU clusters on CoreWeave with Kubernetes and Grafana",
+		"logo": "/assets/images/experiences/Cohere.png"
 	},
 	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"dates": "May 2024 - May 2025",
+		"role": "Undergraduate Researcher",
+		"company": "University of Cincinnati",
+		"description": "Improved Patch-based DDPM framework by incorporating conditional diffusion, achieving a 15% boost in SSIM for PET image reconstruction\n\nDeveloped two meta-learning algorithms for image classification: DG-SharpMAML and AS-MAML, incorporating gradient-matching and sharpness-aware minimization\n\nDemonstrated performance through ablation studies and theoretical analyses, beating state-of-the-art by 2% on accuracy benchmarks",
+		"logo": "/assets/images/experiences/UC.png"
 	},
 	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"dates": "Aug 2023 - Dec 2023",
+		"role": "Machine Learning Intern",
+		"company": "Kinetic Vision",
+		"description": "Enhanced Nvidia's NeMo ASR into a speaker diarization pipeline, achieving word error rate below 5% on videos over 1 hour in length\n\nBuilt a Streamlit app for video transcription with OpenAI Whisper, integrating Longformer and BART for summarization\n\nProposed robust training pipeline for YOLOv8 to detect pharmaceutical products using 21,500 synthetic images, achieving 98% mAP@50 score",
+		"logo": "/assets/images/experiences/KV.png"
+	},
+	{
+		"dates": "Jan 2023 - May 2023",
+		"role": "AI Engineer Intern",
+		"company": "FPT Software",
+		"description": "Optimized PaddleOCR for information extraction from 40,000+ multilingual invoices for SAP clients\n\nAutomated data labeling and information extraction with Python, reducing processing time per batch by 16%",
+		"logo": "/assets/images/experiences/FPT_logo_2010.svg.png"
+	},
+	{
+		"dates": "Jan 2022 - Dec 2022",
+		"role": "Data Science Intern",
+		"company": "Digital Scholarship Center",
+		"description": "Standardized 31 datasets and integrated 106K documents via New York Times API to create 3 new datasets\n\nStreamlined dataset mapping with Python and JavaScript on AWS OpenSearch, reducing upload time by 12%\n\nCategorized 256 application essays using Linear SVC, Naive Bayes, and KNN, achieving 88% accuracy",
+		"logo": "/assets/images/experiences/UC.png"
 	}
 ]

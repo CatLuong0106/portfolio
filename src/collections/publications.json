@@ -1,0 +1,38 @@
+[
+    {
+		"title": "Anatomy of a Feeling",
+		"authors": "Mohammad Saim, Phan Anh Duong, Cat Luong, Aniket Bhanderi, Tianyu Jiang",
+		"venue": "EMNLP 2025",
+		"description": "Narrating Embodied Emotions via Large Vision-Language Models",
+		"url": "https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1276",
+		"pdf": "https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1276.pdf",
+		"code": "https://github.com/cincynlp/ELENA"
+	},
+	{
+		"title": "CHEER-Ekman",
+		"authors": "Phan Anh Duong, Cat Luong, Divyesh Bommana, Tianyu Jiang",
+		"venue": "ACL 2025",
+		"description": "Fine-grained Embodied Emotion Classification",
+		"url": "https://arxiv.org/pdf/2506.01047",
+		"pdf": "https://arxiv.org/pdf/2506.01047.pdf",
+		"code": "https://github.com/CatLuong0106/cheer-ekman"
+	},
+	{
+		"title": "AS-MAML",
+		"authors": "Usman Anjum, Chris Stockman, Cat Luong, Felix Zhan",
+		"venue": "Springer Nature 2025",
+		"description": "Using adaptive learning and momentum to improve generalization",
+		"url": "https://link.springer.com/article/10.1007/s00521-025-11220-7",
+		"pdf": "https://link.springer.com/article/10.1007/s00521-025-11220-7",
+		"code": ""
+	},
+	{
+		"title": "DGS-MAML",
+		"authors": "Usman Anjum, Chris Stockman, Cat Luong, Justin Zhan",
+		"venue": "ArXiv preprint 2025",
+		"description": "Improve Learning in Meta-Learning Algorithms",
+		"url": "https://arxiv.org/pdf/2508.09418",
+		"pdf": "https://arxiv.org/pdf/2508.09418.pdf",
+		"code": "https://github.com/AIResearchTopics/DGSharpMAML"
+	}
+]

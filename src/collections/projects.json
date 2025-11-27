@@ -1,38 +1,38 @@
 [
 	{
-		"name": "TempMail.Best",
-		"description": "Best Temporary Email.",
-		"image": "/assets/images/projects/tempmail.best.png",
-		"url": "https://tempmail.best"
+		"name": "Fable",
+		"description": "Dyslexia-friendly reading app",
+		"image": "https://opengraph.githubassets.com/1/CatLuong0106/fable",
+		"url": "https://github.com/CatLuong0106/fable"
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
+		"name": "Chandra Project",
+		"description": "Agentic robots simulation",
+		"image": "https://opengraph.githubassets.com/1/CatLuong0106/chandra-project",
+		"url": "https://github.com/CatLuong0106/chandra-project"
 	},
 	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
+		"name": "BardTales",
+		"description": "Audiobook generator",
+		"image": "https://opengraph.githubassets.com/1/CatLuong0106/BardTales",
+		"url": "https://github.com/CatLuong0106/BardTales"
 	},
 	{
-		"name": "Sink",
-		"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
-		"image": "/assets/images/projects/sink.cool.png",
-		"url": "https://sink.cool"
+		"name": "DESigmoid",
+		"description": "Image enhancement with evolutionary algorithm",
+		"image": "https://opengraph.githubassets.com/1/CatLuong0106/DEsigmoid",
+		"url": "https://github.com/CatLuong0106/DEsigmoid"
 	},
 	{
-		"name": "BroadcastChannel",
-		"description": "Turn your Telegram Channel into a MicroBlog.",
-		"image": "/assets/images/projects/broadcast-channel.png",
-		"url": "https://github.com/ccbikai/BroadcastChannel"
+		"name": "CHEER-Ekman",
+		"description": "Embodied emotion research",
+		"image": "https://opengraph.githubassets.com/1/CatLuong0106/cheer-ekman",
+		"url": "https://github.com/CatLuong0106/cheer-ekman"
 	},
 	{
-		"name": "L(O*62).ONG",
-		"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-		"image": "/assets/images/projects/long.png",
-		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
+		"name": "SpacePal",
+		"description": "RAG for NASA documents",
+		"image": "https://opengraph.githubassets.com/1/CatLuong0106/spacepal",
+		"url": "https://github.com/CatLuong0106/spacepal"
 	}
 ]

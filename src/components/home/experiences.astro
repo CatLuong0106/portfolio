@@ -1,0 +1,82 @@
+---
+import experiences from "../../collections/experiences.json";
+---
+
+<section class="max-w-4xl mx-auto px-7 lg:px-0">
+  <h2
+    class="text-2xl font-bold leading-10 tracking-tight text-neutral-900 dark:text-neutral-100"
+  >
+    My Experiences
+  </h2>
+  <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
+    Here's a timeline of my professional journey and the projects I've worked on.
+  </p>
+
+  <div class="w-full max-w-4xl mx-auto">
+    <div class="relative">
+      {
+        experiences.map((experience, index) => (
+          <div class="relative mb-8 last:mb-0">
+            {/* Timeline line */}
+            {index !== experiences.length - 1 && (
+              <div class="absolute left-0 top-0 bottom-0 w-0.5 bg-neutral-300 dark:bg-neutral-700" style="height: calc(100% + 2rem);" />
+            )}
+            
+            {/* Date badge */}
+            <div class="flex items-center gap-4 mb-4">
+              <div class="relative z-10 inline-block px-4 py-2 bg-black dark:bg-neutral-900 border border-neutral-300 dark:border-neutral-700 rounded-full">
+                <p class="text-sm font-medium text-white dark:text-white">
+                  {experience.dates}
+                </p>
+              </div>
+            </div>
+
+            {/* Experience card */}
+            <div class="ml-0 md:ml-6 border border-neutral-200 dark:border-neutral-800 rounded-lg p-6 bg-white dark:bg-neutral-900 hover:shadow-lg transition-shadow">
+              <div class="flex items-start gap-4">
+                {experience.logo && (
+                  <div class="flex-shrink-0">
+                    <img 
+                      src={experience.logo} 
+                      alt={experience.company} 
+                      class="w-12 h-12 rounded-lg object-contain"
+                    />
+                  </div>
+                )}
+                <div class="flex-1">
+                  <h3 class="text-xl font-bold text-neutral-900 dark:text-neutral-100 mb-1">
+                    {experience.role}
+                  </h3>
+                  <p class="text-base font-medium text-neutral-600 dark:text-neutral-400 mb-3">
+                    {experience.company}
+                  </p>
+                  <div class="text-sm text-neutral-700 dark:text-neutral-300 space-y-2">
+                    {experience.description.split('\n').map((line: string) => {
+                      const trimmedLine = line.trim();
+                      if (!trimmedLine) return null;
+                      
+                      // Check if line starts with a bold indicator or is a highlighted point
+                      const isBold = trimmedLine.includes('**') || trimmedLine.startsWith('•');
+                      
+                      if (isBold) {
+                        // Remove markdown bold markers and bullet points
+                        const cleanLine = trimmedLine.replace(/\*\*/g, '').replace(/^•\s*/, '');
+                        return (
+                          <p class="font-medium text-pink-700 dark:text-pink-400 italic">
+                            {cleanLine}
+                          </p>
+                        );
+                      }
+                      
+                      return <p>{trimmedLine}</p>;
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
